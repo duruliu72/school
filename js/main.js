@@ -40,7 +40,7 @@ function openMe(obj) {
 
 function setBackground(bg) {
     var attr = document.getElementById("tab-bg");
-    attr.style.background = "url('../javascript/img/bgs/" + bg + ".jpg')left center no-repeat";
+    attr.style.background = "url('https://duruliu72.github.io/school/img/bgs/" + bg + ".jpg')left center no-repeat";
 }
 //==========================================
 
