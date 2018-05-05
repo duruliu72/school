@@ -1,0 +1,34 @@
+#slider1{}
+#slider1 .item{
+    max-height: 400px;
+}
+.fullwidth{
+    width: 100%;
+    padding: 0px 0px;
+    height: 367px;
+}
+.fullwidth table{
+    width: 100%;
+    
+}
+.dycalendar-container.skin-green .dycalendar-today-date{
+    width: 80px;
+}
+.dycalendar-month-container .dycalendar-body table tr td{
+    padding: 0px;
+}
+.owl-nav{
+   position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.owl-carousel{
+    position: static;
+}
+.owl-prev{
+    margin-right: 20px;
+}
+.mm-menu {
+    background: #ffffff;
+    border-right: 1px solid #000;
+}

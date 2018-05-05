@@ -1,0 +1,156 @@
+@media only screen and (min-width:300px) {
+    #department .common-frame .cf-right .txt-content .description p {
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width:480px) {
+    #department .common-frame .cf-right .txt-content .description {
+        padding: 1px 25px 50px 25px;
+        background: #fff;
+    }
+    #department .common-frame .cf-right .txt-content .description>h2 {
+        text-align: left;
+    }
+    #department .common-frame .cf-right .txt-content .description .news-events-ul li {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    #department .common-frame .cf-right .txt-content .description .news-events-ul li div.date {
+        width: 65px;
+        margin-right: 10px;
+        display: inline-block;
+        border: 1px solid gray;
+    }
+    #department .common-frame .cf-right .txt-content .description .profile-info ul.profile li {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    #mm-side-menu {
+        display: none;
+    }
+    #header .mobilemenu {
+        display: none;
+    }
+    #header .mobile-menu-logo {
+        display: none;
+    }
+    #header-top {
+        display: block;
+    }
+    #header-top .logo {
+        margin: 0px auto 0px;
+    }
+    #header-bottom {
+        display: block;
+    }
+    /*    For Home page*/
+    #tab-section .tab-left {
+        float: left;
+        width: 25%;
+    }
+    #tab-section .tab-right {
+        float: left;
+        width: 50%;
+    }
+    #tab-section #tab-bg {
+        display: block;
+    }
+    #tab-extra .tx-leftside {
+        width: 70%;
+        float: left;
+    }
+    #tab-extra .tx-rightside {
+        width: 23%;
+        float: right;
+    }
+    #tab-extra .tx-rightside .schoolinfo li.active:after {
+        display: block;
+    }
+    #board-section ul.nenb li.event-notice {
+        width: 50%;
+        float: left;
+    }
+    #tab-extra .tx-leftside .info-container .tx-content .txc-item .speech-item {
+        width: 50%;
+        float: left;
+    }
+    #tab-section .tab-right .tab-content {
+        margin-left: 30px;
+        margin-right: 80px;
+    }
+    #board-section ul.nenb .last-child {
+        margin-top: 0px;
+    }
+    #board-section ul.nenb .first-child>div {
+        padding-right: 50px;
+    }
+    #board-section ul.nenb .first-child>div:after {
+        display: block;
+    }
+    #board-section ul.nenb .last-child div {
+        padding-left: 50px;
+    }
+    .dycalendar-month-container .dycalendar-body table tr td {
+        padding: 5px;
+    }
+    .fullwidth {
+        padding: 0px 40px;
+    }
+    /*    For Home page End*/
+    #common-bg {
+        display: block;
+    }
+    #department .common-frame {
+        padding: 0px 0px 100px;
+    }
+    #department #breadcum-holder {
+        padding: 50px 0px 40px;
+        display: block;
+    }
+    #department .common-frame .cf-left {
+        display: table-cell;
+    }
+    #department .common-frame .cf-right {
+        width: 100%;
+    }
+    #department .common-frame .cf-right .txt-content {
+        padding: 0px 0px 10px 20px;
+    }
+    #department .common-frame .cf-right .txt-content .description h2.mobile-view {
+        display: none;
+    }
+    #important-link .link-item {
+        width: 33.33%;
+        float: left;
+    }
+    #footer .left {
+        float: left;
+    }
+    #footer .right {
+        float: right;
+        display: block;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 970px;
+    }
+    #header-top .logo {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+    #department .common-frame .cf-right .txt-content .description .profile-info ul.profile li {
+        width: 25%;
+    }
+}
